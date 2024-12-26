@@ -43,7 +43,7 @@
   "neotest-golang": { "branch": "main", "commit": "722b6116b4c9201a97edb06565ebed797f88441d" },
   "neotest-python": { "branch": "master", "commit": "a2861ab3c9a0bf75a56b11835c2bfc8270f5be7e" },
   "noice.nvim": { "branch": "main", "commit": "eaed6cc9c06aa2013b5255349e4f26a6b17ab70f" },
-  "none-ls.nvim": { "branch": "main", "commit": "08744d575f64e6b94c8f9d7db8777d6b9134b28e" },
+  "none-ls.nvim": { "branch": "main", "commit": "6f5473ae9e7feb0b40ca95b8ed92e85b42a3c71b" },
   "nui.nvim": { "branch": "main", "commit": "53e907ffe5eedebdca1cd503b00aa8692068ca46" },
   "nvim-dap": { "branch": "master", "commit": "665d3569a86395fe0dab85efbdb26d7d2ee57e49" },
   "nvim-dap-go": { "branch": "main", "commit": "6aa88167ea1224bcef578e8c7160fe8afbb44848" },
