@@ -5,3 +5,5 @@ vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
 vim.keymap.set("n", "Q", "<nop>")
+
+vim.keymap.set("i", "jk", "<Esc>")
