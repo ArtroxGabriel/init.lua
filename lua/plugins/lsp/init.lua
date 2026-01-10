@@ -5,6 +5,10 @@ return {
     opts = {
       -- This 'servers' table is where you configure individual LSP servers
       servers = {
+        --
+        bashls = {
+          filetypes = { "sh", "zsh" },  -- Attach bash-language-server to zsh files
+        },
         -- Configuration for pyright
         pyright = {
           -- The content of 'settings' goes directly here
