@@ -37,3 +37,5 @@ vim.opt.colorcolumn = "80"
 
 -- colors
 vim.o.termguicolors = true
+
+vim.g.ai_cmp = false
