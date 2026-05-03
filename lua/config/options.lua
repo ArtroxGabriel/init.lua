@@ -39,3 +39,6 @@ vim.opt.colorcolumn = "80"
 vim.o.termguicolors = true
 
 vim.g.ai_cmp = false
+
+---@type "vtsls" | "tsgo"
+vim.g.lazyvim_ts_lsp = "tsgo" -- currently the default
