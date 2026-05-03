@@ -1,10 +1,9 @@
 return {
-  -- Make sure nvim-lspconfig is loaded and configured
   {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
     opts = {
-      ---@type lspconfig.options
+      ---@type table<string, lazyvim.lsp.Config|boolean>
       servers = {
         bashls = {
           filetypes = { "sh", "zsh" }, -- Attach bash-language-server to zsh files
@@ -64,6 +63,8 @@ return {
         },
       },
     },
+
+    ---@type table<string, fun(server:string, opts: vim.lsp.Config):boolean?>
     setup = {
       gopls = function(_, opts)
         -- workaround for gopls not supporting semanticTokensProvider
