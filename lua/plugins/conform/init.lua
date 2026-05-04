@@ -18,12 +18,15 @@ return {
         "html",
         "json",
         "yaml",
-        "markdown",
       }
 
       for _, ft in ipairs(prettier_fts) do
         opts.formatters_by_ft[ft] = { "prettier" }
       end
+
+      opts.formatters_by_ft["markdown"] = { "prettier", "markdownlint-cli2", "markdown-toc" }
+      opts.formatters_by_ft["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" }
+      opts.formatters_by_ft["go"] = { "golangci-lint", "goimports", "gofumpt" }
     end,
   },
 }
