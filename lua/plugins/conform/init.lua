@@ -17,6 +17,7 @@ return {
         "less",
         "html",
         "json",
+        "jsonc",
         "yaml",
       }
 
