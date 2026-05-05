@@ -28,6 +28,7 @@ return {
       opts.formatters_by_ft["markdown"] = { "prettier", "markdownlint-cli2", "markdown-toc" }
       opts.formatters_by_ft["markdown.mdx"] = { "prettier", "markdownlint-cli2", "markdown-toc" }
       opts.formatters_by_ft["go"] = { "golangci-lint", "goimports", "gofumpt" }
+      opts.formatters_by_ft["java"] = { "google-java-format" }
     end,
   },
 }
