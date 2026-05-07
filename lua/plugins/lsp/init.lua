@@ -1,4 +1,5 @@
 return {
+  ---@module "lazyvim"
   {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
@@ -9,7 +10,10 @@ return {
           filetypes = { "sh", "zsh" }, -- Attach bash-language-server to zsh files
         },
         -- Configuration for pyright
+
+        pyrefly = {},
         pyright = {
+          enabled = false,
           -- The content of 'settings' goes directly here
           settings = {
             python = {
