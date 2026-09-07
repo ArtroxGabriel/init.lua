@@ -7,6 +7,8 @@ return {
       if not vim.g.trouble_lualine then
         table.insert(opts.sections.lualine_c, { "navic", color_correction = "dynamic" })
       end
+
+      opts.sections.lualine_z = {}
     end,
   },
 }
